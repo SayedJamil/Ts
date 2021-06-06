@@ -11,11 +11,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@500&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
-    <!-- CSS file -->
-    <link href="styles.css" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+
     <!-- Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+
+    <!-- CSS file -->
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,59 +31,98 @@
     <section class="section1">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark ">
-            <div class="col-lg-6 col-md-6 col-sm-3">
-                <div class="container-fluid">
-                    <div class="col-lg-6 col-md-6 col-sm-3">
-                        <a class="navbar-brand" href="#">
-                            <img src="images/LogoPNG.png" alt="" class="logoimage">
-                            <!-- class="d-inline-block align-text-top" -->
-                            <span class="navbar-brandstyle">TravellerScout</span>
-                        </a>
-                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png" alt="" width="350px" height="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-lg-6 col-md-4 col-sm-3" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto ">
+                        <a class="nav-link" href="#">Maps</a>
+                        <a class="nav-link" href="#">Weather</a>
+                        <a class="nav-link" href="#">News</a>
+
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-3 menupos " style="height: 90px;">
-                <div class="collapse navbar-collapse menubar col-lg-6 col-md-6 col-sm-3" id="navbarNav">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item menuitems">
-                            <a class="nav-link " style="color: #17252A;" href="#">Maps</a>
-                        </li>
-                        <li class="nav-item menuitems">
-                            <a class="nav-link " style="color: #17252A; href="#">Weather</a>
-                        </li>
-                        <li class="nav-item menuitems">
-                            <a class="nav-link " style="color: #17252A; href="#">News</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </nav>
 
+
         <!-- Content -->
         <div class=" container2">
             <div class="contenttext">
-                <p style="text-align: center; vertical-align: bottom;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nostrum dicta fuga voluptate vel suscipit voluptatum at autem quo maiores.</p>
+                <p style="text-align: center; vertical-align: bottom; font-size: 2em;">Want to travel to a new city?</p>
+                <p style="text-align: center; vertical-align: bottom;" ;>But dont know much about the new place? Don't
+                    worry, just search</p>
+
             </div>
             <div class="contentsearch">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control col-lg-6 col-md-6 col-sm-3" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" id="cityname">
-                    <button class="btn btn-outline-secondary col-lg-3 col-md-3 col-sm-3 " type="button" id="button-addon2"><img src="images/search.png" class="btnimage" alt=""></button>
-                  </div>
+                    <input type="text" class="form-control col-lg-6 col-md-6 col-sm-3" placeholder="Enter city name"
+                        aria-label="Recipient's username" aria-describedby="button-addon2" id="cityname">
+                    <button class="btn btn-outline-secondary col-lg-3 col-md-3 col-sm-3 " type="button"
+                        id="button-addon2"><img src="images/search.png" class="btnimage" alt=""
+                            style="height: 30px;"></button>
+                </div>
             </div>
-            
-            
+
+
         </div>
         <video src="images/Website.mp4" muted autoplay class="videostyle"></video>
 
 
     </section>
+    <section class="section2">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active inactive"
+                 aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="inactive"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="inactive"
+                    aria-label="Slide 3"></button>
 
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>Weather</h2>
+                    <h3>Find the weather in any city you want</h3>
+                </div>
+                <div class="carousel-item">
+                    <h2>News</h2>
+                    <h3>Find what's going in the city you want</h3>
+                </div>
+                <div class="carousel-item">
+                    <h2>Maps</h2>
+                    <h3>Find the Map of the city you want</h3>
+                </div>
+            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="footer">
+            <p>A project by  JamS</p>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
     <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
 
 </body>

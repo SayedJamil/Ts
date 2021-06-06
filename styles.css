@@ -11,7 +11,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    overflow-y: hidden;
+
 }
 .section1{
     margin: 0;
@@ -19,76 +19,42 @@ html,body
     width: 100%;
     height: 1080px;
 }
-.container-fluidstyle{
-    height: 80px;
-}
-.navbarstyle{
-    height: 80px;
-    padding: 0px 10% 0px 10%;
 
+
+.navbar-brand{
+    margin-left: 10%;
+    padding:0;
+}
+.navbar{
+    margin: 0;
+    padding:0;
+    height: 180px;
+    overflow: hidden;
+    text-align: center;
     
 }
 
-.navbar{
-    height: 100px;
-}
-
-.logoimage{
-    position: relative;
-}
-.navbar-brandstyle{
-    margin: 0;
-    padding: 0;
-    height: 80px;
-    width: 300px;
-    font-family: 'Roboto',sans-serif;
-    font-weight: bold;
-    margin-right: 100px;
-    position: absolute;
-}
-
-.navbar-brand{
-    width: 300px;
-}
-
-.menupos{
-    padding-left:10%;
-}
-
-.menubar{
-    overflow: hidden;
+.navbar-nav{
+    margin-right: 15%;
     height: 100%;
-    width: 100%;
-    margin: 0;
-    padding-left: 10%;
-
 }
 
-.menuitems{
-    font-family: 'Roboto',sans-serif;
-    text-align: center;
-    font-size: 2em;
+.nav-link{
     font-weight: 500;
-    margin:1%;
-    color: #17252a;
-
-}
-.logoimage{
-    margin: 5px 5px 5px 0px;
-    padding: 0;
-    float: left;
-    height: 60px;
+    font-family:"roboto", sans-serif;
+    color: #17252A;
+    font-size: 1.5em;
+    padding:  5px;
+    text-align: center;
     width: auto;
-
-
+    vertical-align: middle;
+    line-height: 1.5;
+    display: flex;
+  justify-content: center;
 }
 
-.logotext{
-    font-size: xx-large;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    height: 70px;
-    width: 300px;
+.navbar-collapse{
+    height: 60px;
 }
 
 .videostyle{
@@ -108,23 +74,8 @@ html,body
   z-index: -1;
 }
 
-/* .menubar{
-    padding-right: 10%;
-    padding-left: 30%;
-} */
 
-.navbar-brand{
-    padding-left: 10%;
-    height: 80px;
-}
 
-.container-fluid{
-    display: inline-flex;
-}
-.section1 img{
-    height: 80px;
-    width: auto;
-}
 
 .contenttext{
     font-size: xx-large;
@@ -147,13 +98,13 @@ html,body
 
 .contenttext{
     margin: 0;
-    height: 300px;
-    padding-top: 200px;
+    height: 220px;
+    padding-top: 50px;
 
 }
 .contentsearch{
     margin: 0;
-    padding: 0 20%;
+    padding: 0 25%;
 
 }
 
@@ -163,21 +114,113 @@ html,body
     align-items: center;
     border-radius: 10px;
 }
-.form-control{
-    height: 60px;
-    border-radius: 10px;
-    width: 500px;
-}
 
 .btn{
-    height: 60px;
-    width: auto;
-    overflow: auto;
-    border-radius: 10px;
-    padding-top: 10%;
+    width: 40px;
+    padding:0;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: #3aafa9;
+    border-color: #3aafa9;
 }
 
-.btnimage{
-    height: 40px;
-    width: auto;
+.form-control{
+    border: 0;
+    border-radius: 5px;
+    background-color: #3aafa9;
 }
+
+.btn:active{
+    background-color: #287975;
+    outline: none;
+}
+.btn:hover{
+    background-color: #287975;
+    border-color:#287975 ;
+    outline: none;
+}
+.form-control:active{
+    border: 0;
+    border-radius: 5px;
+    background-color: #287975;
+    outline: none;
+}
+.form-control:focus{
+    border: 0;
+    border-radius: 5px;
+    background-color: #287975;
+    outline: none;
+}
+
+.form-control:hover{
+    border: 0;
+    border-radius: 5px;
+    background-color: #287975;
+    outline: none;
+}
+.form-control::placeholder{
+    color: white;
+}
+
+.section2{
+    height: 810px;
+    background-color: white;
+}
+
+.carousel{
+    height: 710px;
+}
+
+.footer{
+    height: 100px;
+    background-color: #17252a;
+}
+
+.carousel-indicators .active{
+    background-color: #17252A;
+}
+
+.carousel-indicators .inactive{
+    background-color: #287975;
+}
+
+/* .carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #17252A;
+
+} */
+
+.carousel-inner{
+    text-align: center;
+    height: auto;
+}
+
+.footer p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Courgette', cursive;
+
+}
+
+.carousel-item{
+    padding-top: 250px;
+}
+
+.carousel-item h2{
+    font-size: 5em;
+    font-family: 'Comfortaa', cursive;
+    color: #113836;
+    font-weight: bolder;
+}
+
+.carousel-item h3{
+    font-size: 2em;
+    font-family: 'Comfortaa', cursive;
+    color: #287975;
+    font-weight: 900;
+
+}
+.carousel-control-next-icon {background-image: url(images/right.svg);}
+.carousel-control-prev-icon {background-image: url(images/left.svg);}
