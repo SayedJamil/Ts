@@ -85,22 +85,25 @@ html,body
   z-index: -1;
 }
 
-.menubar{
+/* .menubar{
     padding-right: 10%;
     padding-left: 30%;
-}
+} */
 
 .navbar-brand{
     padding-left: 10%;
     height: 80px;
 }
 
+.container-fluid{
+    display: inline-flex;
+}
 .section1 img{
     height: 80px;
     width: auto;
 }
 
-.leftsideContenttext{
+.contenttext{
     font-size: xx-large;
     font-weight: bold;
     font-family: 'Pacifico', cursive;
@@ -113,3 +116,45 @@ html,body
 }
 
 
+.container2{
+    height:980px;
+    margin: 0;
+    padding: 10% 10% 0 10%;
+}
+
+.contenttext{
+    margin: 0;
+    height: 300px;
+    padding-top: 200px;
+
+}
+.contentsearch{
+    margin: 0;
+    padding: 0 20%;
+
+}
+
+.mb-3{
+    display: inline-flex; 
+    height: 100%;
+    align-items: center;
+    border-radius: 10px;
+}
+.form-control{
+    height: 60px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.btn{
+    height: 60px;
+    width: auto;
+    overflow: auto;
+    border-radius: 10px;
+    padding-top: 10%;
+}
+
+.btnimage{
+    height: 40px;
+    width: auto;
+}
