@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.section1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1080px;
+}
+.container-fluidstyle{
+    height: 80px;
+}
+.navbarstyle{
+    height: 80px;
+    padding: 0px 10% 0px 10%;
+
+    
+}
+
+.navbar{
+    height: 100px;
+}
+
+.logoimage{
+    position: relative;
+}
+.navbar-brandstyle{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 300px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    margin-right: 100px;
+    position: absolute;
+}
+
+.navbar-brand{
+    width: 300px;
+}
+.logoimage{
+    margin: 5px 5px 5px 0px;
+    padding: 0;
+    float: left;
+    height: 60px;
+    width: auto;
+
+
+}
+
+.logotext{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+    width: 300px;
+}
+
+.videostyle{
+    height: auto;
+    width: 100p%;
+}
+
+.section1 video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.menubar{
+    padding-right: 10%;
+    padding-left: 30%;
+}
+
+.navbar-brand{
+    padding-left: 10%;
+    height: 80px;
+}
+
+.section1 img{
+    height: 80px;
+    width: auto;
+}
+
+.leftsideContenttext{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+
+}
+.leftsideContent{
+    margin: 15% 0 0 0;;
+    padding:2%;
+}
+
+
